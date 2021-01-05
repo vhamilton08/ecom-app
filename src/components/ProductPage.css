@@ -1,0 +1,12 @@
+.productPage {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.productsBox {
+  border: 1px solid black;
+  width: 70vw;
+  height: 80vh;
+  padding: 10px;
+  display: flex;
+  background-color: gray; }
