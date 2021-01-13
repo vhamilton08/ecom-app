@@ -1,0 +1,69 @@
+.homePage {
+    background: url(./Fruit-background.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+.homeContent {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 100vw;
+    
+    
+}
+.homepar {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.homeBtn {
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.homeh1 {
+    font-size: 36px;
+}
+
+@media (max-width: 500px) {
+    .homePage {
+        height: 100vh;
+    }
+    .homeh1 {
+    
+      font-size: 32px;
+    }
+    .homepar {
+        margin-top: 40px;
+    }
+    .homeBtn {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .homePage {
+        // background-image: 768px;
+        background: url(./Fruit-background.png)no-repeat center center fixed;
+        // background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}

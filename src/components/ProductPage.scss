@@ -1,0 +1,24 @@
+.productPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+.productsBox {
+    border:1px solid black;
+    width: 60vw;
+    // height: 80vh;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #F0F0F0;
+    justify-content: space-evenly;
+    // box-shadow: inset #F0F0F0;
+}
+@media(max-width: 500px) {
+    .productsBox {
+        width: 80vw;
+    }
+}
