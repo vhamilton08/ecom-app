@@ -2,7 +2,8 @@ require('dotenv').config();
 const express = require('express');
 const massive = require('massive');
 const session = require('express-session');
-const {SESSION_SECRET, CONNECTION_STRING, SERVER_PORT} = process.env
+const {SESSION_SECRET, CONNECTION_STRING} = process.env
+const SERVER_PORT = process.env.PORT
 const authCtrl = require('./controllers/AuthController');
 const ProductCtrl = require('./controllers/ProductController.js');
 const cartCtrl = require('./controllers/CartController');
