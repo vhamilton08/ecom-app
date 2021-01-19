@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const massive = require('massive');
 const session = require('express-session');
-const {SESSION_SECRET, CONNECTION_STRING} = process.env.PORT || process.env
+const {SESSION_SECRET, DATABASE_URL} = process.env.PORT || 80
 const SERVER_PORT = process.env.PORT || process.env
 const authCtrl = require('./controllers/AuthController');
 const ProductCtrl = require('./controllers/ProductController.js');
@@ -24,7 +24,7 @@ app.use(
 )
 
 massive({
-    connectionString: CONNECTION_STRING,
+    connectionString: DATABASE_URL,
     ssl: {rejectUnauthorized: false}
 }).then((db) => {
     app.set('db', db)
