@@ -1,3 +1,18 @@
+# Ecommerce Site
+
+## What this site does
+
+An ecommerce demo site that allow users to login and add products to their cart.
+
+### TECHNOLOGIES USED
+
+React.js
+Javascript
+Node.js
+SCSS
+PostgreSQL
+express
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
