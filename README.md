@@ -6,12 +6,12 @@ An ecommerce demo site that allow users to login and add products to their cart.
 
 ### TECHNOLOGIES USED
 
-React.js
-Javascript
-Node.js
-SCSS
-PostgreSQL
-express
+* React.js
+* Javascript
+* Node.js
+* SCSS
+* PostgreSQL
+* express
 
 # Getting Started with Create React App
 
